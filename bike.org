@@ -1,0 +1,46 @@
+* Overview
+|          | Unit | Benchmark | More | Less |
+| Cassette |      |           |      |      |
+| Tire     |      |           |      |      |
+| Crank    |      | 50/34     |      |      |
+| Cockpit  |      |           |      |      |
+* Cassette
+11-28T
+* Q
+ M/L : related to rider's height. Size?
+* Words
+
+
+saddle
+
+[[./assets/img/sc/20141031_124239.png]]
+
+cassette
+
+[[./assets/img/sc/20141031_124000.png]]
+
+crankset
+
+[[./assets/img/sc/20141031_123925.png]]
+
+brake
+
+[[./assets/img/sc/20141031_123830.png]]
+
+groupset
+
+[[./assets/img/sc/20141031_123808.png]]
+
+pannier rack
+
+[[./assets/img/sc/20141031_123329.png]]
+
+mud guard
+
+[[./assets/img/sc/20141031_123411.png]]
+
+wall storage rack
+
+[[./assets/img/sc/20141031_125715.png]]
+* reference
+- [[http://www.bikeradar.com/us/road/gear/article/the-best-endurance-road-bikes-under-2000-38080/][endurance bike below 2k]]
