@@ -1,3 +1,5 @@
+#+INFOJS_OPT: view:info toc:nil
+
 * Overview
 |          | Unit | Benchmark | More | Less |
 | Cassette |      |           |      |      |
