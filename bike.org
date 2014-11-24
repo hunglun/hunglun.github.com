@@ -1,7 +1,7 @@
 #+INFOJS_OPT: view:info toc:nil
 
 * Project #1: Build a custom single speed bike
-** Basic
+** Amazon
 |                       | modifier    | price | pound |    kg |
 | [[http://www.amazon.com/Pure-Fix-Cycles-50mm-Wheelset/dp/B006CFEF3K/ref%3Dpd_sim_sg_cy_8?ie%3DUTF8&refRID%3D0Z4C2QN8JS22GBWB4F6V][wheel set]]             | double wall |   120 |       |  5.26 |
 | [[http://www.amazon.com/Vilano-Chromoly-Fixed-Track-Medium/dp/B00DP44A18/ref%3Dsr_1_23?s%3Dcycling&ie%3DUTF8&qid%3D1416803571&sr%3D1-23][frame with front fork]] | steel       |   115 |       |     7 |
@@ -14,17 +14,22 @@
 | [[http://www.amazon.com/Projekt-Fixie-Bullhorn-Pursuit-Handlebar/dp/B00AF1IX58/ref%3Dpd_sim_sg_80?ie%3DUTF8&refRID%3D0JE5X3JKG16PEX9BCEYY][handle bar]]            | bullhorn    |    13 |       |       |
 |                       |             | 405.5 |       | 15.34 |
 #+TBLFM: @11$3=vsum(@3$3..@10$3)::@11$5=vsum(@3$5..@10$5)
-** Premium
-|             | modifier | price | pound | kg |
-| frame       |          |       |       |    |
-| saddle      |          |       |       |    |
-| wheel set   |          |       |       |    |
-| tire        |          |       |       |    |
-| crank set   |          |       |       |    |
-| chain       |          |       |       |    |
-| pedal       |          |       |       |    |
-| front brake |          |       |       |    |
-| handle bar  |          |       |       |    |
+** Taobao
+|             | modifier                        | price(RMB) | pound |  kg |
+| front fork  | steel,适用34MM碗组              |        168 |       | 1.1 |
+| [[http://item.taobao.com/item.htm?spm%3Da1z10.5.w4002-8179606709.48.3tvSeS&id%3D21915755765][frame]]       |                                 |        360 |       | 1.6 |
+| [[http://detail.tmall.com/item.htm?spm%3Da220o.1000855.1998025129.1.ftdRHV&id%3D37842617319&abbucket%3D_AB-M32_B5&rn%3D&acm%3D03054.1003.1.115927&uuid%3DhfzFkB89_DlGmCrMSqCMCAXPC5zPPnuyc&abtest%3D_AB-LR32-PR32&scm%3D1003.1.03054.ITEM_37842617319_115927&pos%3D1][saddle]]      | leather                         |         20 |       | 0.3 |
+| [[http://detail.tmall.com/item.htm?spm%3Da220o.1000855.1998025129.2.3u6MsZ&id%3D37901059270&abbucket%3D_AB-M32_B4&rn%3D4900282246974c70301de2fcce4b7c08&acm%3D03054.1003.1.115927&uuid%3DYSRa9hso_fRRVC8lSWjcCAbdef1ScRBJU&abtest%3D_AB-LR32-PR32&scm%3D1003.1.03054.ITEM_37901059270_115927&pos%3D2][seat post]]   | A6061 T6  口径：25.4MM          |         25 |       |     |
+| [[http://detail.tmall.com/item.htm?spm%3Da220o.1000855.1998025129.2.vMXhwZ&id%3D37984872719&abbucket%3D_AB-M32_B5&rn%3D&acm%3D03054.1003.1.115927&uuid%3DgGL5RJ7n_sR70CvQNfXoCAdz/AfV5HgLq&abtest%3D_AB-LR32-PR32&scm%3D1003.1.03054.ITEM_37984872719_115927&pos%3D2][wheel set ]]  |                                 |        200 |       |     |
+| tire        |                                 |            |       |     |
+| [[http://detail.tmall.com/item.htm?spm%3Da220o.1000855.1998025129.2.uX9759&id%3D37900283394&abbucket%3D_AB-M32_B5&rn%3D&acm%3D03054.1003.1.115927&uuid%3DAp9mC5Pt_sR70CvQNfXoCAdz/AfV5HgLq&abtest%3D_AB-LR32-PR32&scm%3D1003.1.03054.ITEM_37900283394_115927&pos%3D2][crank set]]   | alloy                           |         59 |       | 0.7 |
+| [[http://detail.tmall.com/item.htm?spm%3Da220o.1000855.1998025129.2.taNquT&id%3D37984312438&abbucket%3D_AB-M32_B8&rn%3D&acm%3D03054.1003.1.115927&uuid%3DJre3q3N9_YUanCxlvUVkCAd/TIOa9Y8Bz&abtest%3D_AB-LR32-PR32&scm%3D1003.1.03054.ITEM_37984312438_115927&pos%3D2][chain]]       | 96节，123CM                     |         18 |       |     |
+| pedal       |                                 |         24 |       |     |
+| front brake |                                 |         24 |       |     |
+| [[http://item.taobao.com/item.htm?spm%3D2013.1.0.0.qeUM07&id%3D41251868795][headset]]     | 22.2mm直径,适用于25.4有牙的碗组 |         35 |       |     |
+| [[http://item.taobao.com/item.htm?spm%3D2013.1.0.0.qeUM07&id%3D40447643833][handle bar]]  |                                 |         25 |       |     |
+|             |                                 |        958 |       |     |
+#+TBLFM: @14$3=vsum(@2$3..@13$3)
 ** Reference
 *** [[http://www.polygonbikes.com/ww/bikes/description/2013-zenith-ss#spec][Polygon Single Speed 2013]]
 | Frame              | ALX Alloy Commuting                                |
@@ -89,3 +94,5 @@ wall storage rack
 [[./assets/img/sc/20141031_125715.png]]
 * reference
 - [[http://www.bikeradar.com/us/road/gear/article/the-best-endurance-road-bikes-under-2000-38080/][endurance bike below 2k]]
+- [[https://snapguide.com/guides/change-your-bike-chain/][how to replace chain]]
+- [[http://detail.tmall.com/item.htm?spm%3Da220o.1000855.1998025129.1.QdfxrG&id%3D36388619028&abbucket%3D_AB-M32_B5&rn%3D3e8a4be5140b33de1c32db27ed2b56e2&acm%3D03054.1003.1.115927&uuid%3DqFXwPH2X_sR70CvQNfXoCAdz/AfV5HgLq&abtest%3D_AB-LR32-PR32&scm%3D1003.1.03054.ITEM_36388619028_115927&pos%3D1][how to use chain tool]]
