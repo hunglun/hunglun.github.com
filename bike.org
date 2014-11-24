@@ -92,7 +92,14 @@ mud guard
 wall storage rack
 
 [[./assets/img/sc/20141031_125715.png]]
+* Crankset
+44,32,22 Teeth
+* Tool
+- [[http://detail.tmall.com/item.htm?spm%3Da220m.1000858.1000725.16.2nhzvh&id%3D37868076880&skuId%3D4611686056295464784&cat_id%3D2&rn%3Dfb3e9adbeb4a3d39a3149ba25c43b024&user_id%3D2012507531&is_b%3D1][bottom bracket removal tool]]
 * reference
-- [[http://www.bikeradar.com/us/road/gear/article/the-best-endurance-road-bikes-under-2000-38080/][endurance bike below 2k]]
-- [[https://snapguide.com/guides/change-your-bike-chain/][how to replace chain]]
-- [[http://detail.tmall.com/item.htm?spm%3Da220o.1000855.1998025129.1.QdfxrG&id%3D36388619028&abbucket%3D_AB-M32_B5&rn%3D3e8a4be5140b33de1c32db27ed2b56e2&acm%3D03054.1003.1.115927&uuid%3DqFXwPH2X_sR70CvQNfXoCAdz/AfV5HgLq&abtest%3D_AB-LR32-PR32&scm%3D1003.1.03054.ITEM_36388619028_115927&pos%3D1][how to use chain tool]]
+1. [[http://www.bikeradar.com/us/road/gear/article/the-best-endurance-road-bikes-under-2000-38080/][endurance bike below 2k]]
+2. [[https://snapguide.com/guides/change-your-bike-chain/][how to replace chain]]
+3. [[http://detail.tmall.com/item.htm?spm%3Da220o.1000855.1998025129.1.QdfxrG&id%3D36388619028&abbucket%3D_AB-M32_B5&rn%3D3e8a4be5140b33de1c32db27ed2b56e2&acm%3D03054.1003.1.115927&uuid%3DqFXwPH2X_sR70CvQNfXoCAdz/AfV5HgLq&abtest%3D_AB-LR32-PR32&scm%3D1003.1.03054.ITEM_36388619028_115927&pos%3D1][how to use chain tool]]
+4. [[http://www.bikeradar.com/gear/article/how-to-replace-a-crankset-video-42523/][how to replace crankset]]
+5. [[http://www.rodbikes.com/blog/whats-the-effect-of-wheel-size-on-speed/][Smaller wheel is not slower]]
+6. [[http://www.rohloff.de/en/technology/speedhub/efficiency_measurement/][Measure Bike Efficiency]]
