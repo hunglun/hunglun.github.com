@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>bike</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<meta name="title" content="bike"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2014-11-24T13:04+0800"/>
+<meta name="author" content=""/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
+  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
+  .center {margin-left:auto; margin-right:auto; text-align:center;}
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top;  }
+  th.right  { text-align:center;  }
+  th.left   { text-align:center;   }
+  th.center { text-align:center; }
+  td.right  { text-align:right;  }
+  td.left   { text-align:left;   }
+  td.center { text-align:center; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  div.inlinetask {
+    padding:10px;
+    border:2px solid gray;
+    margin:10px;
+    background: #ffffcc;
+  }
+  textarea { overflow-x: auto; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript" src="http://orgmode.org/org-info.js">
+/**
+ *
+ * @source: http://orgmode.org/org-info.js
+ *
+ * @licstart  The following is the entire license notice for the
+ *  JavaScript code in http://orgmode.org/org-info.js.
+ *
+ * Copyright (C) 2012-2013  Sebastian Rose
+ *
+ *
+ * The JavaScript code in this tag is free software: you can
+ * redistribute it and/or modify it under the terms of the GNU
+ * General Public License (GNU GPL) as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option)
+ * any later version.  The code is distributed WITHOUT ANY WARRANTY;
+ * without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+ *
+ * As additional permission under GNU GPL version 3 section 7, you
+ * may distribute non-source (e.g., minimized or compacted) forms of
+ * that code without the copy of the GNU GPL normally required by
+ * section 4, provided you include this license notice and a URL
+ * through which recipients can access the Corresponding Source.
+ *
+ * @licend  The above is the entire license notice
+ * for the JavaScript code in http://orgmode.org/org-info.js.
+ *
+ */
+</script>
+
+<script type="text/javascript">
+
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+
+<!--/*--><![CDATA[/*><!--*/
+org_html_manager.set("TOC_DEPTH", "3");
+org_html_manager.set("LINK_HOME", "");
+org_html_manager.set("LINK_UP", "");
+org_html_manager.set("LOCAL_TOC", "1");
+org_html_manager.set("VIEW_BUTTONS", "0");
+org_html_manager.set("MOUSE_HINT", "underline");
+org_html_manager.set("FIXED_TOC", "0");
+org_html_manager.set("TOC", "0");
+org_html_manager.set("VIEW", "info");
+org_html_manager.setup();  // activate after the parameters are set
+/*]]>*///-->
+</script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+
+</head>
+<body>
+
+<div id="preamble">
+
+</div>
+
+<div id="content">
+<h1 class="title">bike</h1>
+
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1 Project #1: Build a custom single speed bike</a>
+<ul>
+<li><a href="#sec-1-1">1.1 Basic</a></li>
+<li><a href="#sec-1-2">1.2 Premium</a></li>
+<li><a href="#sec-1-3">1.3 Reference</a>
+<ul>
+<li><a href="#sec-1-3-1">1.3.1 Polygon Single Speed 2013</a></li>
+<li><a href="#sec-1-3-2">1.3.2 Marin</a></li>
+</ul></li>
+</ul>
+</li>
+<li><a href="#sec-2">2 Q</a></li>
+<li><a href="#sec-3">3 Words</a></li>
+<li><a href="#sec-4">4 reference</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Project #1: Build a custom single speed bike</h2>
+<div class="outline-text-2" id="text-1">
+
+
+</div>
+
+<div id="outline-container-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Basic</h3>
+<div class="outline-text-3" id="text-1-1">
+
+<table border="2" cellspacing="0" cellpadding="6" rules="all" frame="border">
+<colgroup><col class="left" /><col class="left" /><col class="right" /><col class="left" /><col class="right" />
+</colgroup>
+<tbody>
+<tr><td class="left"></td><td class="left">modifier</td><td class="right">price</td><td class="left">pound</td><td class="right">kg</td></tr>
+<tr><td class="left"><a href="http://www.amazon.com/Pure-Fix-Cycles-50mm-Wheelset/dp/B006CFEF3K/ref=pd_sim_sg_cy_8?ie=UTF8&amp;refRID=0Z4C2QN8JS22GBWB4F6V">wheel set</a></td><td class="left">double wall</td><td class="right">120</td><td class="left"></td><td class="right">5.26</td></tr>
+<tr><td class="left"><a href="http://www.amazon.com/Vilano-Chromoly-Fixed-Track-Medium/dp/B00DP44A18/ref=sr_1_23?s=cycling&amp;ie=UTF8&amp;qid=1416803571&amp;sr=1-23">frame with front fork</a></td><td class="left">steel</td><td class="right">115</td><td class="left"></td><td class="right">7</td></tr>
+<tr><td class="left">crank set</td><td class="left"></td><td class="right">36</td><td class="left"></td><td class="right">0.8</td></tr>
+<tr><td class="left">chain</td><td class="left"></td><td class="right">10</td><td class="left"></td><td class="right">0.38</td></tr>
+<tr><td class="left"><a href="http://www.amazon.com/Retrospec-Bicycles-Urban-Fixed-Saddle/dp/B00858TE6K/ref=pd_sim_sg_4?ie=UTF8&amp;refRID=163MZMT8AKN9JVTB44MK">saddle</a></td><td class="left"></td><td class="right">13</td><td class="left"></td><td class="right">0.34</td></tr>
+<tr><td class="left"><a href="http://www.amazon.com/Continental-Tour-Ride-Urban-Bicycle/dp/B0013DZGVG/ref=pd_sim_sg_49?ie=UTF8&amp;refRID=163MZMT8AKN9JVTB44MK">tires</a></td><td class="left"></td><td class="right">60</td><td class="left"></td><td class="right">1.2</td></tr>
+<tr><td class="left"><a href="http://www.amazon.com/Fixed-Platform-Pedals-Orange-Yellow/dp/B008CIXKF4/ref=pd_sim_sg_14?ie=UTF8&amp;refRID=184YTZ5PGBEXXE55KG54">pedal</a></td><td class="left"></td><td class="right">21</td><td class="left"></td><td class="right">0.36</td></tr>
+<tr><td class="left">front brake</td><td class="left"></td><td class="right">17</td><td class="left"></td><td class="right"></td></tr>
+<tr><td class="left"><a href="http://www.amazon.com/Projekt-Fixie-Bullhorn-Pursuit-Handlebar/dp/B00AF1IX58/ref=pd_sim_sg_80?ie=UTF8&amp;refRID=0JE5X3JKG16PEX9BCEYY">handle bar</a></td><td class="left">bullhorn</td><td class="right">13</td><td class="left"></td><td class="right"></td></tr>
+<tr><td class="left"></td><td class="left"></td><td class="right">405.5</td><td class="left"></td><td class="right">15.34</td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+<div id="outline-container-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> Premium</h3>
+<div class="outline-text-3" id="text-1-2">
+
+<table border="2" cellspacing="0" cellpadding="6" rules="all" frame="border">
+<colgroup><col class="left" /><col class="left" /><col class="left" /><col class="left" /><col class="left" />
+</colgroup>
+<tbody>
+<tr><td class="left"></td><td class="left">modifier</td><td class="left">price</td><td class="left">pound</td><td class="left">kg</td></tr>
+<tr><td class="left">frame</td><td class="left"></td><td class="left"></td><td class="left"></td><td class="left"></td></tr>
+<tr><td class="left">saddle</td><td class="left"></td><td class="left"></td><td class="left"></td><td class="left"></td></tr>
+<tr><td class="left">wheel set</td><td class="left"></td><td class="left"></td><td class="left"></td><td class="left"></td></tr>
+<tr><td class="left">tire</td><td class="left"></td><td class="left"></td><td class="left"></td><td class="left"></td></tr>
+<tr><td class="left">crank set</td><td class="left"></td><td class="left"></td><td class="left"></td><td class="left"></td></tr>
+<tr><td class="left">chain</td><td class="left"></td><td class="left"></td><td class="left"></td><td class="left"></td></tr>
+<tr><td class="left">pedal</td><td class="left"></td><td class="left"></td><td class="left"></td><td class="left"></td></tr>
+<tr><td class="left">front brake</td><td class="left"></td><td class="left"></td><td class="left"></td><td class="left"></td></tr>
+<tr><td class="left">handle bar</td><td class="left"></td><td class="left"></td><td class="left"></td><td class="left"></td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+<div id="outline-container-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> Reference</h3>
+<div class="outline-text-3" id="text-1-3">
+
+
+</div>
+
+<div id="outline-container-1-3-1" class="outline-4">
+<h4 id="sec-1-3-1"><span class="section-number-4">1.3.1</span> <a href="http://www.polygonbikes.com/ww/bikes/description/2013-zenith-ss#spec">Polygon Single Speed 2013</a></h4>
+<div class="outline-text-4" id="text-1-3-1">
+
+<table border="2" cellspacing="0" cellpadding="6" rules="all" frame="border">
+<colgroup><col class="left" /><col class="left" />
+</colgroup>
+<tbody>
+<tr><td class="left">Frame</td><td class="left">ALX Alloy Commuting</td></tr>
+<tr><td class="left">Front Fork</td><td class="left">Rigid Fork</td></tr>
+<tr><td class="left">Alloy Brakes Front</td><td class="left">Tektro R-369</td></tr>
+<tr><td class="left">Brake Levers</td><td class="left">Tektro RX1.0</td></tr>
+<tr><td class="left">Pedals</td><td class="left">VP Component, VP-615, Alloy</td></tr>
+<tr><td class="left">Crankset</td><td class="left">170mm Gates 50T</td></tr>
+<tr><td class="left">Bottom Bracket</td><td class="left">Cardtridge Bearing Type</td></tr>
+<tr><td class="left">Chain</td><td class="left">Gates Belt</td></tr>
+<tr><td class="left">Cassette</td><td class="left">Gates 24T</td></tr>
+<tr><td class="left">Rim</td><td class="left">Rigida DPX w/ stainless steel spokes and alloy hub</td></tr>
+<tr><td class="left">Tires</td><td class="left">Schwalbe Kojak, 700x35C</td></tr>
+<tr><td class="left">Saddle</td><td class="left">Selle Royal Respiro, Steel Rail</td></tr>
+<tr><td class="left">Seatpost</td><td class="left">FSA Metropolis, Alloy, 27.2x350mm</td></tr>
+<tr><td class="left">Stem</td><td class="left">FSA Metropolis, Alloy, 70mm</td></tr>
+<tr><td class="left">Handlebar</td><td class="left">FSA Metropolis, Alloy, 620mm</td></tr>
+<tr><td class="left">Headset</td><td class="left">FSA Orbit Z</td></tr>
+<tr><td class="left">Price</td><td class="left">SGD 850</td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+<div id="outline-container-1-3-2" class="outline-4">
+<h4 id="sec-1-3-2"><span class="section-number-4">1.3.2</span> <a href="http://store.rodalink.com.sg/marin-ignacio-700c-2012/">Marin</a></h4>
+<div class="outline-text-4" id="text-1-3-2">
+
+
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Q</h2>
+<div class="outline-text-2" id="text-2">
+
+<p> M/L : related to rider's height. Size?
+</p></div>
+
+</div>
+
+<div id="outline-container-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Words</h2>
+<div class="outline-text-2" id="text-3">
+
+
+<p>
+The <b>headset</b> is the set of components on a bicycle that provides a rotatable interface between the bicycle fork and the head tube of the bicycle frame itself
+<img src="./assets/img/headset.jpg"  alt="./assets/img/headset.jpg" />
+</p>
+<p>
+bottom bracket
+<img src="./assets/img/bottom_bracket.jpg"  alt="./assets/img/bottom_bracket.jpg" />
+</p>
+<p>
+saddle
+</p>
+<p>
+<img src="./assets/img/sc/20141031_124239.png"  alt="./assets/img/sc/20141031_124239.png" />
+</p>
+<p>
+cassette
+</p>
+<p>
+<img src="./assets/img/sc/20141031_124000.png"  alt="./assets/img/sc/20141031_124000.png" />
+</p>
+<p>
+crankset
+</p>
+<p>
+<img src="./assets/img/sc/20141031_123925.png"  alt="./assets/img/sc/20141031_123925.png" />
+</p>
+<p>
+brake
+</p>
+<p>
+<img src="./assets/img/sc/20141031_123830.png"  alt="./assets/img/sc/20141031_123830.png" />
+</p>
+<p>
+groupset
+</p>
+<p>
+<img src="./assets/img/sc/20141031_123808.png"  alt="./assets/img/sc/20141031_123808.png" />
+</p>
+<p>
+pannier rack
+</p>
+<p>
+<img src="./assets/img/sc/20141031_123329.png"  alt="./assets/img/sc/20141031_123329.png" />
+</p>
+<p>
+mud guard
+</p>
+<p>
+<img src="./assets/img/sc/20141031_123411.png"  alt="./assets/img/sc/20141031_123411.png" />
+</p>
+<p>
+wall storage rack
+</p>
+<p>
+<img src="./assets/img/sc/20141031_125715.png"  alt="./assets/img/sc/20141031_125715.png" />
+</p></div>
+
+</div>
+
+<div id="outline-container-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> reference</h2>
+<div class="outline-text-2" id="text-4">
+
+<ul>
+<li><a href="http://www.bikeradar.com/us/road/gear/article/the-best-endurance-road-bikes-under-2000-38080/">endurance bike below 2k</a>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+
+<div id="postamble">
+<p class="author">Author:  (<a href="mailto:ao1@ra.rockwell.com">ao1@ra.rockwell.com</a>)</p>
+<p class="date">Date: 2014-11-24T13:04+0800</p>
+<p class="creator">Generated by <a href="http://orgmode.org">Org</a> version 7.9.3f with <a href="http://www.gnu.org/software/emacs/">Emacs</a> version 24</p>
+<p class="xhtml-validation"><a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a></p>
+
+</div>
+</body>
+</html>

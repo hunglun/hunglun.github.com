@@ -1,17 +1,60 @@
 #+INFOJS_OPT: view:info toc:nil
 
-* Overview
-|          | Unit | Benchmark | More | Less |
-| Cassette |      |           |      |      |
-| Tire     |      |           |      |      |
-| Crank    |      | 50/34     |      |      |
-| Cockpit  |      |           |      |      |
-* Cassette
-11-28T
+* Project #1: Build a custom single speed bike
+** Basic
+|                       | modifier    | price | pound |    kg |
+| [[http://www.amazon.com/Pure-Fix-Cycles-50mm-Wheelset/dp/B006CFEF3K/ref%3Dpd_sim_sg_cy_8?ie%3DUTF8&refRID%3D0Z4C2QN8JS22GBWB4F6V][wheel set]]             | double wall |   120 |       |  5.26 |
+| [[http://www.amazon.com/Vilano-Chromoly-Fixed-Track-Medium/dp/B00DP44A18/ref%3Dsr_1_23?s%3Dcycling&ie%3DUTF8&qid%3D1416803571&sr%3D1-23][frame with front fork]] | steel       |   115 |       |     7 |
+| crank set             |             |    36 |       |   0.8 |
+| chain                 |             |    10 |       |  0.38 |
+| [[http://www.amazon.com/Retrospec-Bicycles-Urban-Fixed-Saddle/dp/B00858TE6K/ref%3Dpd_sim_sg_4?ie%3DUTF8&refRID%3D163MZMT8AKN9JVTB44MK][saddle]]                |             |    13 |       |  0.34 |
+| [[http://www.amazon.com/Continental-Tour-Ride-Urban-Bicycle/dp/B0013DZGVG/ref%3Dpd_sim_sg_49?ie%3DUTF8&refRID%3D163MZMT8AKN9JVTB44MK][tires]]                 |             |    60 |       |   1.2 |
+| [[http://www.amazon.com/Fixed-Platform-Pedals-Orange-Yellow/dp/B008CIXKF4/ref%3Dpd_sim_sg_14?ie%3DUTF8&refRID%3D184YTZ5PGBEXXE55KG54][pedal]]                 |             |    21 |       |  0.36 |
+| front brake           |             |    17 |       |       |
+| [[http://www.amazon.com/Projekt-Fixie-Bullhorn-Pursuit-Handlebar/dp/B00AF1IX58/ref%3Dpd_sim_sg_80?ie%3DUTF8&refRID%3D0JE5X3JKG16PEX9BCEYY][handle bar]]            | bullhorn    |    13 |       |       |
+|                       |             | 405.5 |       | 15.34 |
+#+TBLFM: @11$3=vsum(@3$3..@10$3)::@11$5=vsum(@3$5..@10$5)
+** Premium
+|             | modifier | price | pound | kg |
+| frame       |          |       |       |    |
+| saddle      |          |       |       |    |
+| wheel set   |          |       |       |    |
+| tire        |          |       |       |    |
+| crank set   |          |       |       |    |
+| chain       |          |       |       |    |
+| pedal       |          |       |       |    |
+| front brake |          |       |       |    |
+| handle bar  |          |       |       |    |
+** Reference
+*** [[http://www.polygonbikes.com/ww/bikes/description/2013-zenith-ss#spec][Polygon Single Speed 2013]]
+| Frame              | ALX Alloy Commuting                                |
+| Front Fork         | Rigid Fork                                         |
+| Alloy Brakes Front | Tektro R-369                                       |
+| Brake Levers       | Tektro RX1.0                                       |
+| Pedals             | VP Component, VP-615, Alloy                        |
+| Crankset           | 170mm Gates 50T                                    |
+| Bottom Bracket     | Cardtridge Bearing Type                            |
+| Chain              | Gates Belt                                         |
+| Cassette           | Gates 24T                                          |
+| Rim                | Rigida DPX w/ stainless steel spokes and alloy hub |
+| Tires              | Schwalbe Kojak, 700x35C                            |
+| Saddle             | Selle Royal Respiro, Steel Rail                    |
+| Seatpost           | FSA Metropolis, Alloy, 27.2x350mm                  |
+| Stem               | FSA Metropolis, Alloy, 70mm                        |
+| Handlebar          | FSA Metropolis, Alloy, 620mm                       |
+| Headset            | FSA Orbit Z                                        |
+| Price              | SGD 850                                            |
+*** [[http://store.rodalink.com.sg/marin-ignacio-700c-2012/][Marin]]
+
 * Q
  M/L : related to rider's height. Size?
 * Words
 
+The *headset* is the set of components on a bicycle that provides a rotatable interface between the bicycle fork and the head tube of the bicycle frame itself
+[[./assets/img/headset.jpg]]
+
+bottom bracket
+[[./assets/img/bottom_bracket.jpg]]
 
 saddle
 
