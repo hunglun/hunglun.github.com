@@ -96,6 +96,8 @@ wall storage rack
 44,32,22 Teeth
 * Tool
 - [[http://detail.tmall.com/item.htm?spm%3Da220m.1000858.1000725.16.2nhzvh&id%3D37868076880&skuId%3D4611686056295464784&cat_id%3D2&rn%3Dfb3e9adbeb4a3d39a3149ba25c43b024&user_id%3D2012507531&is_b%3D1][bottom bracket removal tool]]
+* Gear Ratio Chart
+[[./assets/img/Gear_Ratio.jpg]]
 * reference
 1. [[http://www.bikeradar.com/us/road/gear/article/the-best-endurance-road-bikes-under-2000-38080/][endurance bike below 2k]]
 2. [[https://snapguide.com/guides/change-your-bike-chain/][how to replace chain]]
