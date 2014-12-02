@@ -1,0 +1,48 @@
+;; #1. balance is not yet localised.
+(setq balance 100)
+(defun withdraw (amount)
+  (if (> amount balance)
+      "insufficient fund!"
+    (progn
+      (setq balance (- balance amount))
+      balance
+      )
+    )
+  )
+(withdraw 1)
+;; #2 practise lambda syntax
+(lambda () 1)
+  
+((lambda ()
+  1) )
+
+(lambda (x) (+ 1 x))
+
+( (lambda (x) (+ 1 x)) 1)
+
+;; #3 practise let syntax
+(let ((a 1))
+  (progn
+  ((lambda () 1))
+  
+  )
+)
+;; #3 practise function definition with lambda
+;; #3 localise balance
+(defun  withdraw2 (amount)
+ ; (let ((balance 100))
+(
+    (lambda (amount)
+      (if (> amount balance)
+	  "insufficient fund!"
+	(progn (setq balance (- balance amount)) 
+	       balance)
+	)
+      ) 
+    1)
+;    )
+)
+  
+
+((withdraw2   2) 2)
+
