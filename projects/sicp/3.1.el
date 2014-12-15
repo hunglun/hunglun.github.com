@@ -1,6 +1,7 @@
 ;; -*- lexical-binding: 1; -*-
 ;; #1. balance is not yet localised.
 (setq lexical-binding 1)
+
 (setq balance 100)
 (defun withdraw (amount)
   (if (> amount balance)
