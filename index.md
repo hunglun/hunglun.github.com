@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Hello World!
+title: Emacian
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-http://apsgsgpwltang2/
-http://apsgsgp532hd12/l3ys/scrum
+[wiki][http://apsgsgpwltang2/]
+
+[scrum][http://apsgsgp532hd12/l3ys/scrum]
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
