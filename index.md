@@ -5,9 +5,9 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-[wiki][http://apsgsgpwltang2/]
+[wiki](http://apsgsgpwltang2/)
 
-[scrum][http://apsgsgp532hd12/l3ys/scrum]
+[scrum](http://apsgsgp532hd12/l3ys/scrum)
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
