@@ -1,7 +1,3 @@
-
-
-
-
 function sum(v){
     var total=0;
 

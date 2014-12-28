@@ -2,7 +2,7 @@ var fs=require('fs')
 var dirpath=process.argv[2]
 var ext=process.argv[3]
 
-function callback(err,list){
+function doneReading(err,list){
     if (err) throw err
     list=list.filter(function chosen (filepath){
 	name=filepath.split('.')[0]
@@ -16,4 +16,4 @@ function callback(err,list){
 	console.log(list[i]);
     }
 }
-fs.readdir(dirpath,callback)
+fs.readdir(dirpath,doneReading)

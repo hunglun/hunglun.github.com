@@ -1,25 +1,21 @@
-// var path = require('path')
-// path.extname(file) === '.' + filterStr
-module.exports = function(dirpath,ext,callback_print){
-
+var path = require('path')
 var fs=require('fs')
 
-function callback(err,list){
-    if(err){
-	return callback_print(err,list)
+module.exports = function(dirpath,ext,doneReading)
+{
+    function callback(err,list)
+    {
+	if(err)
+	{
+	    return doneReading(err,list)
+	}
+	list=list.filter(function chosen (filepath)
+			 {
+			     return path.extname(filepath) === '.' + ext
+			 }			 
+			)
+	
+	doneReading(err,list)
     }
-    list=list.filter(function chosen (filepath){
-	name=filepath.split('.')[0]
-	extension=filepath.split('.')[1]
-	return extension == ext
-    }
-
-		    )
-    
-    callback_print(err,list)
-}
-
     fs.readdir(dirpath,callback);
-
-
 }
