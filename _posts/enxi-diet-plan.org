@@ -1,0 +1,13 @@
+* Meal 
+| Breakfast     | whole grain, banana,milk               | bite size |
+| Mid morning   | pineapple,cheese,wheat cracker         | bite size |
+| Lunch         | bean, berry, yogurt                    |           |
+| mid afternoon | apple,hard boiled egg                  | bite size |
+| dinner        | potato,pasta,broccoli,shredded chicken |           |
+| evening       | milk, apple juice                      |           |
+* Principle
+- Frequent: 2, 3 hour a meal
+- use water as a drink, instead of milk or juice during meal.
+
+* Reference
+- http://www.parents.com/toddlers-preschoolers/feeding/healthy-eating/toddler-feeding-schedule/

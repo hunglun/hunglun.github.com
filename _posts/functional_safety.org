@@ -1,0 +1,5 @@
+* Derivation of Failure probability
+See section Reliability and Hazard Functions in reference 1.
+
+* Reference
+- [[http://infohost.nmt.edu/~olegm/484/Chap3.pdf][Basic Mathematics for Reliability Engineering]]

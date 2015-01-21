@@ -1,0 +1,7 @@
+* Objective
+Turn on and off the power switch on work desk via PC.
+* Material
+- [[http://detail.tmall.com/item.htm?spm%3Da220m.1000858.1000725.1.N5ImnZ&id%3D19691629965&skuId%3D4611686038119017869&cat_id%3D2&rn%3D1958d904f1ba180bc912843dd59ad759&user_id%3D1070042715&is_b%3D1][Relay Module]]
+- [[http://detail.tmall.com/item.htm?spm%3Da230r.1.14.1.z2uNVC&id%3D21643999571&ad_id%3D&am_id%3D&cm_id%3D140105335569ed55e27b&pm_id%3D&abbucket%3D9][Arduino Board]]
+* Reference
+- [[http://www.instructables.com/id/Controlling-AC-light-using-Arduino-with-relay-modu/][guide]]
